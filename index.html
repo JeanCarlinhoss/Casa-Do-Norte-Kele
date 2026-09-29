@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casa do Norte kele </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>                       
+    <header>              
+        <h1>Casa do Norte kele </h1>
+        <h1>A melhor comida com Sabor Nordetino Da Região </h1>
+    </header>
+    <section>
+        <h1>Cardápio</h1>
+        <div class="cardapio-grid">
+            <div class="item">
+                <img src="cupim.jpg" alt="cupim ao molho">
+                <h3>Cupim</h3>
+                <p>Cupim delicioso, carne bovina.</p>
+                <span>R$ 30,00</span>
+            <button 
+            onclick="adicionarAoCarrinho('Cupim', 30.00)">Pedir</button>
+            </div>
+            <div class="item">
+                <img src="costela.jpg" alt="costela">
+                <h3>Costela</h3>
+                <p>Costela suína grelhada com molho barbecue.</p>
+                <span>R$ 25,00</span>
+            <button onclick="adicionarAoCarrinho('Costela', 25.00)">Pedir</button>
+            </div>
+            <div class="item">
+                <img src="arrumadinho.jpg" alt="arrumadinho">
+                <h3>Arrumadinho</h3>
+                <p>Arrumadinho, um prato um pouco mais leve.</p>
+                <span>R$ 35,00</span>
+                <button onclick="adicionarAoCarrinho('Arrumadinho', 35.00)">Pedir</button>
+                </div>
+
+                <div class="item">
+                  <img src="carne parnela.jpg" alt="carne parnela">
+                  <h3>Carne Parnela</h3>
+                  <span>R$ 25,00</span>
+                  <p>Carne parnela grelhada com molho barbecue.</p>
+                  <button onclick="adicionarAoCarrinho('Carne Parnela', 25.00)">Pedir</button>
+                </div>
+                <div class="item">
+                  <img src="omelete.jpg" alt="omelete">
+                  <h3>Omelete</h3>
+                  <p>Omelete de queijo com presunto.</p>
+                  <span>R$ 22,00</span>
+                  <button onclick="adicionarAoCarrinho('Omelete', 22.00)">Pedir</button>
+            </div>
+
+            <div class="item">
+                <img src="file de frango.jpg" alt="file de frango">
+                <h3>File de Frango</h3>
+                <p>File de frango grelhado com molho barbecue.</p>
+                <span>R$ 22,00</span>
+                <button onclick="adicionarAoCarrinho('File de Frango', 22.00)">Pedir</button>
+            </div>
+
+                    <h1>BEBIDAS</h1>
+
+             <div class="item">
+                 <img src="coca lata.jpg" alt="Coca-Cola">
+                 <h3>Coca-Cola lata<lata></lata></h3>
+                 <p>Lata de Coca-Cola 350ml.</p>
+                    <span>R$ 6,00</span>
+                <button onclick="adicionarAoCarrinho('Coca-Cola', 6.00)">Pedir</button>
+                </div>
+                
+            <div class="item">
+                 <img src="coca-2lt.jpg" alt="coca">
+                 <h3>Coca-Cola2lt</h3>
+                 <span>R$ 16,00</span>
+               <button onclick="adicionarAoCarrinho('Coca-Cola', 16.00)">Pedir</button>
+                </div>
+            <div class="item">
+                 <img src="guarana.jpg" alt="guarana">
+                 <h3>Guaraná lata</h3>
+                 <p>Lata de Guaraná 350ml.</p>
+                 <span>R$ 6,00</span>
+                <button onclick="adicionarAoCarrinho('Guaraná', 6.00)">Pedir</button>
+                </div>
+            </div>
+             <div class="item">
+                 <img src="agua.jpg" alt="agua">
+                 <h3>Guaraná 2lt</h3>
+                 <p>Garrafa de Guaraná 2lt.</p>
+                 <span>R$ 16,00</span>
+                <button onclick="adicionarAoCarrinho('Guaraná', 16.00)">Pedir</button>
+                </div>
+            <div class="item">
+                 <img src="agua.jpg" alt="agua">
+                 <h3>Suco</h3>
+                 <p>Suco 500ml.</p>
+                 <span>R$ 3,00</span>
+                <button onclick="adicionarAoCarrinho('Suco', 3.00)">Pedir</button>
+                </div>
+
+            <div class="item">
+                 <img src="agua.jpg" alt="agua">
+                 <h3>Água</h3>
+                 <p>Garrafa de Água 500ml.</p>
+                 <span>R$ 3,00</span>
+                <button onclick="adicionarAoCarrinho('Água', 3.00)">Pedir</button>
+                </div>
+
+                <h1>ALCOÓLICAS</h1>
+            <div class="item">
+                 <img src="cerveja.jpg" alt="cerveja">
+                 <h3>Brahma</h3>
+                 <p>Lata de Cerveja 350ml.</p>
+                 <span>R$ 6,00</span>
+                <button onclick="adicionarAoCarrinho('Brahma', 6.00)">Pedir</button>
+                </div>
+            <div class="item">
+                 <img src="cerveja.jpg" alt="cerveja">
+                 <h3>Skol</h3>
+                 <p>Lata de Cerveja 350ml.</p>
+                 <span>R$ 6,00</span>
+                <button onclick="adicionarAoCarrinho('Skol', 6.00)">Pedir</button>
+                </div>
+                    <div class="item">
+                 <img src="cerveja.jpg" alt="cerveja">
+                 <h3>Stella</h3>
+                 <p>Lata de Cerveja 350ml.</p>
+                 <span>R$ 6,00</span>
+                <button onclick="adicionarAoCarrinho('Stella', 6.00)">Pedir</button>
+                    </div>
+            <div class="item">
+                 <img src="cerveja.jpg" alt="cerveja">
+                 <h3>Heineken</h3>
+                 <p>Lata de Cerveja 350ml.</p>
+                 <span>R$ 6,00</span>
+                <button onclick="adicionarAoCarrinho('Heineken', 6.00)">Pedir</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+    <div id="carrinho" style="background:#fff; border:2px solid green; padding:15px; margin:20px;">
+  <h2>Meu Pedido</h2>
+  <ul id="lista-carrinho"></ul>
+  <p>Total: R$ <span id="total">0.00</span></p>
+  <button onclick="finalizarPedido()" style="background:green; color:white; padding:10px; width:100%;">Enviar no Zap da Kelé</button>
+  <div id="carrinho">
+  <h2>Meu Pedido</h2>
+  <ul id="lista-carrinho"></ul>
+  <p>Total: R$ <span id="total">0.00</span></p>
+  
+  <button onclick="limparHistorico()" style="background: #ccc; color: #333; margin-top: 10px;">🗑️ Limpar Pedido</button>
+</div>
+</div>
+
+<script src="script.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+                 
